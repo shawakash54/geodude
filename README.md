@@ -6,12 +6,14 @@
 - npm install -g serverless
 - npm install
 - serverless config credentials --provider aws --key <IAM_USER_KEY> --secret <IAM_USER_SECRET>
+- serverless datasetdowload
 - serverless deploy
 
 
 ### Running it locally
 - npm install -g serverless
 - npm install
+- serverless datasetdowload
 - sls offline
 
 #### Request params

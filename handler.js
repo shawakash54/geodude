@@ -1,7 +1,7 @@
 'use strict';
 var ip2loc = require("ip2location-nodejs");
 
-ip2loc.IP2Location_init("./dataset/IP2LOCATION-LITE-DB11.IPV6.BIN");
+ip2loc.IP2Location_init("./dataset/dataset.BIN");
 
 module.exports.getGEOData = async event => {
   try {

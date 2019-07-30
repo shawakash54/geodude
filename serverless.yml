@@ -114,3 +114,9 @@ functions:
 #       Value: "Some output value"
 plugins:
   - serverless-offline
+  - serverless-plugin-scripts
+
+custom:
+  scripts:
+    commands:
+      datasetdowload: node download.js
