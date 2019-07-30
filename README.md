@@ -3,16 +3,14 @@
 ## Get the geographical description of the IPs passed
 
 ### Deployment steps:
-- npm install -g serverless
 - npm install
+- npm run build
 - serverless config credentials --provider aws --key <IAM_USER_KEY> --secret <IAM_USER_SECRET>
-- serverless datasetdowload
 - serverless deploy
 
 
 ### Running it locally
 - npm install
-- npm install -g serverless
 - npm run build
 - npm run start
 

@@ -119,4 +119,4 @@ plugins:
 custom:
   scripts:
     commands:
-      datasetdowload: node download.js
+      datasetdownload: node download.js
