@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install -g serverless",
+    "build": "serverless datasetdowload",
     "start": "sls offline"
   },
   "repository": {

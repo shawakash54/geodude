@@ -11,10 +11,9 @@
 
 
 ### Running it locally
-- npm install -g serverless
 - npm install
-- serverless datasetdowload
-- sls offline
+- npm install -g serverless
+- npm run start
 
 #### Request params
 ##### geo?ip=["2409:4071:221f:6223:e16d:3518:45e7:8d43","106.51.245.254"]
