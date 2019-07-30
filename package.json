@@ -1,0 +1,25 @@
+{
+  "name": "geodude",
+  "version": "1.0.0",
+  "description": "geographical description of the IPs passed",
+  "main": "handler.js",
+  "dependencies": {
+    "ip2location-nodejs": "^8.2.0",
+    "serverless-plugin-scripts": "^1.0.2",
+    "serverless-offline": "^5.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawakash54/geodude.git"
+  },
+  "author": "Akash Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawakash54/geodude/issues"
+  },
+  "homepage": "https://github.com/shawakash54/geodude#readme"
+}

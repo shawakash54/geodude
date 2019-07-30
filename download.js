@@ -49,6 +49,11 @@ function download(url, path) {
   })
 }
 
+var dir = './dataset'
+if (!fs.existsSync(dir)){
+  fs.mkdirSync(dir);
+}
+
 const url = 'https://geolocation-dataset.s3.amazonaws.com/IP2LOCATION-LITE-DB11.IPV6.BIN'
 console.log('Downloading ' + url)
 console.log('Downloading file')
