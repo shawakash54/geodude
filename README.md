@@ -13,6 +13,7 @@
 ### Running it locally
 - npm install
 - npm install -g serverless
+- npm run build
 - npm run start
 
 #### Request params
