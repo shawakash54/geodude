@@ -16,6 +16,10 @@ module.exports.getGEOData = async event => {
     var res = []
     for (var x = 0; x < IPs.length; x++) {
       var result = ip2loc.IP2Location_get_all(IPs[x]);
+      var keys_remove = ["isp", 'domain', 'netspeed', 'iddcode', 'areacode', 'weatherstationcode', 'weatherstationname', 'mcc', 'mnc', 'mobilebrand', 'usagetype']
+      for(let key in keys_remove) {
+        delete result[keys_remove[key]]
+      }
       res.push(result)
       console.log(`Result for IP ${IPs[x]}:`, result)
       console.log(`------------------------------------`)
